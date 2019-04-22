@@ -1,0 +1,89 @@
+body {
+    margin: 0 auto;
+    height: 100%;
+    background-color: #1A1D22;
+}
+/* NAVBAR-------------------------------------------------------------- */
+.navbar {
+  background-color: #1A1D22 !important;
+  border-bottom: #ED1C24 solid 4px;
+  margin: auto;
+}
+
+#navDropdown {
+  position: static;
+}
+
+#navDropdownMenu {
+  width: 100%;
+}
+
+.navbar-toggler {
+  border: none;
+}
+/* DROPDOWNS ---------------------------------------------------------- */
+.dropdown-menu.show {
+  background-color: #2d323a;
+}
+
+.dropdown-menu a {
+  color: white;
+}
+
+.dropdown-menu a.dropdown-item:hover {
+  background-color: #2d323a;
+  color: white;
+  font-weight: 600;
+}
+/* FOOTER ------------------------------------------------------------- */
+.footer {
+  color: white;
+}
+
+.footer :any-link {
+  color: white;
+}
+
+.fbIcon {
+  color: white;
+}
+
+.twIcon {
+  color: white;
+}
+/* LANDING DIV--------------------------------------------------------- */
+  .landingDiv {
+    background-color: #1A1D22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: white;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+  }
+
+  .modal-content {
+    background-color: #1A1D22 !important;
+  }
+
+  .modal-content :any-link {
+    color: white;
+  }
+
+  .modal-header {
+    border-bottom: #3c414b solid 1px;
+  }
+
+  .modal-footer {
+    border-top: #3c414b solid 1px;
+  }
+
+  .landingTextContainer h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+  }
