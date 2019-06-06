@@ -62,12 +62,43 @@ body {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     color: white;
+    position: relative;
     -moz-user-select: none;
     -webkit-user-select: none;
   }
 
+  .landingTextContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .landingTextContainer h1 {
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+  }
+
+  .landingDiv img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+    /* animation: landingZoomOut 10s linear forwards; */
+  }
+
+  /* @keyframes landingZoomOut {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0.8);
+    }
+  } */
+
   .modal-content {
     background-color: #1A1D22 !important;
+    font-family: 'Montserrat', sans-serif;
   }
 
   .modal-content :any-link {
@@ -86,4 +117,12 @@ body {
     color: white;
     font-size: 40px;
     font-weight: bold;
+  }
+
+  .modal-title {
+    color: white;
+  }
+
+  .modal-body {
+    text-align: center;
   }
