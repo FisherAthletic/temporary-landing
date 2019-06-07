@@ -1,7 +1,7 @@
 body {
-    margin: 0 auto;
-    height: 100%;
-    background-color: #1A1D22;
+  margin: 0 auto;
+  height: 100%;
+  background-color: #1A1D22;
 }
 /* NAVBAR-------------------------------------------------------------- */
 .navbar {
@@ -52,19 +52,19 @@ body {
   color: white;
 }
 /* LANDING DIV--------------------------------------------------------- */
-  .landingDiv {
-    background-color: #1A1D22;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    height: 100vh;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    color: white;
-    position: relative;
-    -moz-user-select: none;
-    -webkit-user-select: none;
+.landingDiv {
+  background-color: #1A1D22;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: white;
+  position: relative;
+  -moz-user-select: none;
+  -webkit-user-select: none;
   }
 
   .landingTextContainer {
@@ -125,4 +125,25 @@ body {
 
   .modal-body {
     text-align: center;
+  }
+
+  /* Responsive for phone screens */
+  @media screen and (max-width: 450px) {
+    .landingDiv {
+      height: 100vh;
+    }
+
+    .landingDiv img {
+      transform: scale(0.85);
+    }
+
+    .landingTextContainer {
+      width: 80vw;
+    }
+
+    .landingTextContainer h1 {
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+    }
   }
